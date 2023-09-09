@@ -10,11 +10,11 @@
 - バージョン確認  
 ```python -m django --version```
 
-- データベースを作成する
+- データベースを作成する  
 ```python manage.py migrate```
 
-- プロジェクトを表示する
+- プロジェクトを表示する  
 ```python manage.py runserver```
 
-- アプリケーションを開始する
+- アプリケーションを開始する  
 ```python manage.py startapp learning_logs```
