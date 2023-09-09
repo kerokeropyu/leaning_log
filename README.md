@@ -18,3 +18,12 @@
 
 - アプリケーションを開始する  
 ```python manage.py startapp learning_logs```
+
+- マイグレーションファイルを作成する  
+```python manage.py makemigrations learning_logs```
+
+- マイグレーション実行  
+```python manage.py migrate```
+
+- スーパーユーザーを設定する
+```python manage.py createsuperuser```
